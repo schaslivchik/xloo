@@ -120,8 +120,8 @@ owl.owlCarousel({
   nav: true
 });
 
-$(".owl-next").html('<img src="../images/next.svg" />');
-$(".owl-prev").html('<img src="../images/prev.svg" />');
+$(".owl-next").html('<img src="images/next.svg" />');
+$(".owl-prev").html('<img src="images/prev.svg" />');
 
 $('.tiltBox').hover(
   function () { $(this).addClass('tiltZindex') },
