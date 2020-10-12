@@ -1,4 +1,13 @@
- @media (max-width: 1440px) {
+@media (max-width: 1600px) {
+  .item-case-block {
+    width: 280px;
+  }
+  .item-case-block-text {
+    font-size: 16px;
+  }
+  
+}
+@media (max-width: 1440px) {
   .block-description-xloo {
     font-size: 36px;
     line-height: 52px;

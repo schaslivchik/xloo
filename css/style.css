@@ -941,3 +941,75 @@ opacity: 0;
 .iScrollIndicator {
   display: none !important;
 }
+
+
+
+/**carousel*/
+.item-case-block {
+  position: relative;
+  background-color: #fff;
+  width: 300px;
+  border-radius: 2px;
+ 
+}
+.item-case-block-text,
+.item-case-block img {
+  transition: 0.4s;
+}
+.item-case-block:hover .item-case-block-text{
+  /* color: #93CB40; */
+  text-decoration: none;
+}
+.item-case-block:hover {
+  text-decoration: none;
+}
+.item-case-block:hover img{
+  transform:scale(1.1);
+}
+.item-case-block-img {
+  height: 420px;
+  overflow: hidden;
+  border-bottom: 1px solid #E7EAEF;
+}
+.item-case-block-text {
+  padding: 20px;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 24px;
+  color: #212529;
+}
+.wrap-owl-xloo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.owl-xloo-container {
+  max-width: 1600px;
+  align-items: center;
+}
+.owl-carousel .owl-nav.disabled {
+  display: block;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  display: inline-flex;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ccc;
+  border-radius: 40px;
+}
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover {
+  border-color: #212529;
+  background-color: transparent; 
+}
+.owl-carousel .owl-nav button.owl-next:focus,
+.owl-carousel .owl-nav button.owl-prev:focus {
+ outline: none;
+}
+.owl-carousel .owl-item img {
+  max-width: inherit;
+}

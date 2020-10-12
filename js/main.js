@@ -111,14 +111,17 @@ var myFullpage = new fullpage('#fullpage', {
 
 var owl = $('.owl-carousel');
 owl.owlCarousel({
-  items: 4,
+  items: 5,
   loop: true,
   margin: 10,
-  autoplay: true,
+  autoplay: false,
   autoplayTimeout: 5000,
-  autoplayHoverPause: true
+  autoplayHoverPause: true,
+  nav: true
 });
 
+$(".owl-next").html('<img src="../images/next.svg" />');
+$(".owl-prev").html('<img src="../images/prev.svg" />');
 
 $('.tiltBox').hover(
   function () { $(this).addClass('tiltZindex') },
