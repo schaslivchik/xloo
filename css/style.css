@@ -972,11 +972,13 @@ opacity: 0;
   border-bottom: 1px solid #E7EAEF;
 }
 .item-case-block-text {
-  padding: 20px;
-  margin-bottom: 0;
-  font-size: 18px;
-  line-height: 24px;
-  color: #212529;
+  padding: 20px 10px;
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 24px;
+    color: #212529;
+    font-weight: 500;
+    letter-spacing: -0.4px;
 }
 .wrap-owl-xloo-container {
   display: flex;
