@@ -954,7 +954,7 @@ opacity: 0;
 }
 .item-case-block-text,
 .item-case-block img {
-  transition: 0.4s;
+  transition: 0.8s;
 }
 .item-case-block:hover .item-case-block-text{
   /* color: #93CB40; */
@@ -964,7 +964,7 @@ opacity: 0;
   text-decoration: none;
 }
 .item-case-block:hover img{
-  transform:scale(1.1);
+  transform:scale(1.02);
 }
 .item-case-block-img {
   height: 420px;
