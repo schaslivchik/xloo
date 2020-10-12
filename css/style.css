@@ -1005,6 +1005,7 @@ opacity: 0;
 .owl-carousel .owl-nav button.owl-prev:hover {
   border-color: #212529;
   background-color: transparent; 
+  cursor: pointer;
 }
 .owl-carousel .owl-nav button.owl-next:focus,
 .owl-carousel .owl-nav button.owl-prev:focus {
