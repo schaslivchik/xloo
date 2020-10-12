@@ -978,7 +978,10 @@ opacity: 0;
     line-height: 24px;
     color: #212529;
     font-weight: 500;
-    letter-spacing: -0.4px;
+    
+}
+.wxchat-text {
+  letter-spacing: -0.4px;
 }
 .wrap-owl-xloo-container {
   display: flex;
