@@ -1013,3 +1013,6 @@ opacity: 0;
 .owl-carousel .owl-item img {
   max-width: inherit;
 }
+.owl-dots {
+  display: none;
+}

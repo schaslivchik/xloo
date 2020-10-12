@@ -117,7 +117,26 @@ owl.owlCarousel({
   autoplay: false,
   autoplayTimeout: 5000,
   autoplayHoverPause: true,
-  nav: true
+  nav: false,
+  responsive: {
+    0: {
+      items: 1,
+      nav: true
+    },
+    768: {
+      items: 3,
+      nav: true
+    },
+    1200: {
+      items: 4,
+      nav: false
+    },
+    1500: {
+      items: 5,
+      nav: true,
+      loop: false
+    }
+  }
 });
 
 $(".owl-next").html('<img src="images/next.svg" />');

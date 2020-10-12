@@ -27,8 +27,12 @@
   .main-menu-trigger {
     display: none;
   }
+
  }
 @media (max-width: 1200px) {
+  .owl-xloo-container {
+    max-width: 1200px;
+  }
   .main-menu-trigger {
     display: none;
   }
