@@ -117,7 +117,7 @@ owl.owlCarousel({
   autoplay: false,
   autoplayTimeout: 5000,
   autoplayHoverPause: true,
-  nav: false,
+  nav: true,
   responsive: {
     0: {
       items: 1,
@@ -129,12 +129,12 @@ owl.owlCarousel({
     },
     1200: {
       items: 4,
-      nav: false
+      nav: true
     },
     1500: {
       items: 5,
       nav: true,
-      loop: false
+      loop: true
     }
   }
 });
