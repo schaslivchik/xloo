@@ -972,10 +972,10 @@ opacity: 0;
   border-bottom: 1px solid #E7EAEF;
 }
 .item-case-block-text {
-  padding: 20px 10px;
+    padding: 20px;
     margin-bottom: 0;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 21px;
     color: #212529;
     font-weight: 500;
     
